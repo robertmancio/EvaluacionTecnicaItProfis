@@ -1,0 +1,42 @@
+﻿@page
+@model MiCamioncito.Pages.Pilots.IndexModel
+@{
+}
+<br>
+<h2>List of Pilots</h2>
+<a class="btn btn-primary btn-sm" href='/Pilots/Create'>Agregar Piloto</a>
+<table class="table">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Nombre</th>
+            <th>Email</th>
+            <th>Edad</th>
+            <th>Telefono</th>
+            <th>Ubicacion</th>
+            <th>Disponible desde</th>
+            <th>Disponible hasta</th>
+            <th>Accion</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach(var item in Model.listPilots)
+        {
+            <tr>
+                <td>@item.id</td>
+                <td>@item.name</td>
+                <td>@item.email</td>
+                <td>@item.age</td>
+                <td>@item.phone</td>
+                <td>@item.address</td>
+                <td>@item.availiable_at</td>
+                 <td>@item.availiable_to</td>
+                <td>
+                    <a class="btn btn-primary btn-sm" href="/Pilots/Edit?id=@item.id">Editar</a>
+                    <a class="btn btn-danger btn-sm" href="/Pilots/Delete?id=@item.id">Eliminar</a>
+                </td>
+            </tr>
+        }
+
+    </tbody>
+</table>

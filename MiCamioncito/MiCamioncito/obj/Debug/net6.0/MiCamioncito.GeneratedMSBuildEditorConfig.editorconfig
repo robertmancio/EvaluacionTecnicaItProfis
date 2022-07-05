@@ -1,0 +1,76 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = MiCamioncito
+build_property.RootNamespace = MiCamioncito
+build_property.ProjectDir = C:\Users\RM\Desktop\Evaluacion Tecnica\MiCamioncito\MiCamioncito\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\RM\Desktop\Evaluacion Tecnica\MiCamioncito\MiCamioncito
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/RM/Desktop/Evaluacion Tecnica/MiCamioncito/MiCamioncito/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/RM/Desktop/Evaluacion Tecnica/MiCamioncito/MiCamioncito/Pages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/RM/Desktop/Evaluacion Tecnica/MiCamioncito/MiCamioncito/Pages/Pilots/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGlsb3RzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/RM/Desktop/Evaluacion Tecnica/MiCamioncito/MiCamioncito/Pages/Pilots/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGlsb3RzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/RM/Desktop/Evaluacion Tecnica/MiCamioncito/MiCamioncito/Pages/Pilots/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGlsb3RzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/RM/Desktop/Evaluacion Tecnica/MiCamioncito/MiCamioncito/Pages/Pilots/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGlsb3RzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/RM/Desktop/Evaluacion Tecnica/MiCamioncito/MiCamioncito/Pages/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/RM/Desktop/Evaluacion Tecnica/MiCamioncito/MiCamioncito/Pages/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/RM/Desktop/Evaluacion Tecnica/MiCamioncito/MiCamioncito/Pages/Vehicles/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVmVoaWNsZXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/RM/Desktop/Evaluacion Tecnica/MiCamioncito/MiCamioncito/Pages/Vehicles/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVmVoaWNsZXNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/RM/Desktop/Evaluacion Tecnica/MiCamioncito/MiCamioncito/Pages/Vehicles/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVmVoaWNsZXNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/RM/Desktop/Evaluacion Tecnica/MiCamioncito/MiCamioncito/Pages/Vehicles/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVmVoaWNsZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/RM/Desktop/Evaluacion Tecnica/MiCamioncito/MiCamioncito/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/RM/Desktop/Evaluacion Tecnica/MiCamioncito/MiCamioncito/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/RM/Desktop/Evaluacion Tecnica/MiCamioncito/MiCamioncito/Pages/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-d6wxh5qppf

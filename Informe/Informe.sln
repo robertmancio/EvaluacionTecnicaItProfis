@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32516.85
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F14B399A-7131-4C87-9E4B-1186C45EF12D}") = "Informe", "Informe\Informe.rptproj", "{3B58C110-AD81-4028-B867-DDE5ABE47532}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Default = Debug|Default
+		DebugLocal|Default = DebugLocal|Default
+		Release|Default = Release|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3B58C110-AD81-4028-B867-DDE5ABE47532}.Debug|Default.ActiveCfg = Debug
+		{3B58C110-AD81-4028-B867-DDE5ABE47532}.Debug|Default.Build.0 = Debug
+		{3B58C110-AD81-4028-B867-DDE5ABE47532}.Debug|Default.Deploy.0 = Debug
+		{3B58C110-AD81-4028-B867-DDE5ABE47532}.DebugLocal|Default.ActiveCfg = DebugLocal
+		{3B58C110-AD81-4028-B867-DDE5ABE47532}.DebugLocal|Default.Build.0 = DebugLocal
+		{3B58C110-AD81-4028-B867-DDE5ABE47532}.Release|Default.ActiveCfg = Release
+		{3B58C110-AD81-4028-B867-DDE5ABE47532}.Release|Default.Build.0 = Release
+		{3B58C110-AD81-4028-B867-DDE5ABE47532}.Release|Default.Deploy.0 = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1EFB574F-F822-48E5-AE8C-C3BFD2594889}
+	EndGlobalSection
+EndGlobal

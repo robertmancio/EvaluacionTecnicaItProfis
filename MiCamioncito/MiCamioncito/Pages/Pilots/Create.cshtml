@@ -1,0 +1,79 @@
+﻿@page
+@model MiCamioncito.Pages.Pilots.CreateModel
+@{
+}
+
+<br>
+<h2>Agregar Piloto</h2>
+@if (Model.errorMessage.Length > 0)
+{
+    <div class='alert alert-warning alert-dismissible fade show' role="alert">
+        <strong>@Model.errorMessage</strong>
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+}
+<form method="POST">
+    <div class="row mb-">
+        <label class="col-sm-3 col-form-label">Nombre</label>
+        <div class="col-sm-6">
+            <input type="text" class="form-control" name="name" value="@Model.pilotInfo.name"/>
+        </div>
+    </div>
+    <div class="row mb-">
+        <label class="col-sm-3 col-form-label">Email</label>
+        <div class="col-sm-6">
+            <input type="text" class="form-control" name="email" value="@Model.pilotInfo.email"/>
+        </div>
+    </div>
+    <div class="row mb-">
+        <label class="col-sm-3 col-form-label">Edad</label>
+        <div class="col-sm-6">
+            <input type="text" class="form-control" name="age" value="@Model.pilotInfo.age"/>
+        </div>
+    </div>
+    <div class="row mb-">
+        <label class="col-sm-3 col-form-label">Telefono</label>
+        <div class="col-sm-6">
+            <input type="text" class="form-control" name="phone" value="@Model.pilotInfo.phone"/>
+        </div>
+    </div>
+    <div class="row mb-">
+        <label class="col-sm-3 col-form-label">Ubicacion</label>
+        <div class="col-sm-6">
+            <input type="text" class="form-control" name="address" value="@Model.pilotInfo.address"/>
+        </div>
+    </div>
+    <div class="row mb-">
+        <label class="col-sm-3 col-form-label">Disponible desde</label>
+        <div class="col-sm-6">
+           <input type="date" name="availiable_at" value="2022-01-01" min="2022-01-01" 
+           class="form-control"/>
+        </div>
+    </div>
+    <div class="row mb-">
+        <label class="col-sm-3 col-form-label">Disponible hasta</label>
+        <div class="col-sm-6">
+           <input type="date" name="availiable_to" value="2022-01-01" min="2022-01-01" 
+           class="form-control"/>
+        </div>
+    </div>
+    @if (Model.successMessage.Length > 0)
+    {
+        <div class="row-mb-3">
+            <div class="col-sm-9">
+                <div class="alert alert-success alert-dismissible fade show" role="alert">
+                    <strong>@Model.successMessage</strong>
+                    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                </div>
+            </div>
+        </div>
+    }
+    <div class="row mb-3">
+        <div class="offset-sm-3 col-sm-3 d-grid">
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </div>
+        <div class="col-sm-3 d-grid">
+            <a class="btn btn-outline-primary" href="/" role="button">Cancel</a>
+        </div>
+    </div>
+</form>

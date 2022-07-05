@@ -1,0 +1,72 @@
+﻿@page
+@model MiCamioncito.Pages.Vehicles.EditModel
+@{
+}
+
+<br>
+<h2>Editar Vehiculo</h2>
+@if (Model.errorMessage.Length > 0)
+{
+    <div class='alert alert-warning alert-dismissible fade show' role="alert">
+        <strong>@Model.errorMessage</strong>
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+}
+<form method="POST">
+    <input type="hidden" name="id" value="@Model.vehicleInfo.id"/>
+    <div class="row mb-">
+        <label class="col-sm-3 col-form-label">Marca</label>
+        <div class="col-sm-6">
+            <input type="text" class="form-control" name="brand" value="@Model.vehicleInfo.brand"/>
+        </div>
+    </div>
+    <div class="row mb-">
+        <label class="col-sm-3 col-form-label">Año</label>
+        <div class="col-sm-6">
+            <input type="text" class="form-control" name="year" value="@Model.vehicleInfo.year"/>
+        </div>
+    </div>
+    <div class="row mb-">
+        <label class="col-sm-3 col-form-label">Capacidad (metros cubicos)</label>
+        <div class="col-sm-6">
+            <input type="text" class="form-control" name="capacity" value="@Model.vehicleInfo.capacity"/>
+        </div>
+    </div>
+    <div class="row mb-">
+        <label class="col-sm-3 col-form-label">Consumo de combustible por KM</label>
+        <div class="col-sm-6">
+            <input type="text" class="form-control" name="consume" value="@Model.vehicleInfo.consume"/>
+        </div>
+    </div>
+    <div class="row mb-">
+        <label class="col-sm-3 col-form-label">Ubicacion</label>
+        <div class="col-sm-6">
+            <input type="text" class="form-control" name="address" value="@Model.vehicleInfo.address"/>
+        </div>
+    </div>
+    <div class="row mb-">
+        <label class="col-sm-3 col-form-label">Deprecicion</label>
+        <div class="col-sm-6">
+            <input type="text" class="form-control" name="depreciation" value="@Model.vehicleInfo.depreciation"/>
+        </div>
+    </div>
+    @if (Model.successMessage.Length > 0)
+    {
+        <div class="row-mb-3">
+            <div class="col-sm-9">
+                <div class="alert alert-success alert-dismissible fade show" role="alert">
+                    <strong>@Model.successMessage</strong>
+                    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                </div>
+            </div>
+        </div>
+    }
+    <div class="row mb-3">
+        <div class="offset-sm-3 col-sm-3 d-grid">
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </div>
+        <div class="col-sm-3 d-grid">
+            <a class="btn btn-outline-primary" href="/" role="button">Cancel</a>
+        </div>
+    </div>
+</form>

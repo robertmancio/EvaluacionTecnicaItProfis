@@ -1,0 +1,50 @@
+CREATE TABLE pilots (
+    id INT NOT NULL PRIMARY KEY IDENTITY,
+    name VARCHAR (100) NOT NULL,
+    email VARCHAR (150) NOT NULL UNIQUE,
+    age VARCHAR (150) NOT NULL UNIQUE,
+    phone VARCHAR(20) NULL,
+    address VARCHAR(100) NULL,
+    availiable_at DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP
+);
+
+INSERT INTO pilots (name, email, phone, age, address)
+VALUES
+('Juan Perez', 'juanperez@microsoft.com', '44', '55448855', 'Jutiapa'),
+('Roberto Juarez', 'robertojuarez@gmail.com','45', '44558855', 'Zacapa'),
+('Jorge Gonzalez', 'jorgegonzalez@gmail.com','44', '55446677', 'Peten'),
+('Daniel Rodriguez', 'danielrodriguez@gmail.com','77', '55774411', 'Huehuetenango');
+
+
+
+CREATE TABLE cargo (
+    id INT NOT NULL PRIMARY KEY IDENTITY,
+    type_of_cargo VARCHAR (100) NOT NULL,
+);
+
+INSERT INTO cargo (type_of_cargo)
+VALUES
+('Refrigerado'),
+('Mudanza'),
+('Entrega de paquetes'),
+('Chatarra'),
+('Frutas');
+
+
+
+CREATE TABLE vehicles (
+    id INT NOT NULL PRIMARY KEY IDENTITY,
+    brand VARCHAR (100) NOT NULL,
+    year VARCHAR (100) NOT NULL,
+    capacity VARCHAR (100) NOT NULL,
+    consume VARCHAR (100) NOT NULL,
+    address VARCHAR (100) NOT NULL,
+    depreciation VARCHAR (100) NOT NULL,
+    availiable_at DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    fk_cargo_id int,
+    CONSTRAINT fk_cargo_id FOREIGN KEY (id)
+    REFERENCES cargo(id)
+);
+
+ALTER TABLE pilots ADD availiable_to DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP;
+ALTER TABLE vehicles ADD availiable_to DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP;
